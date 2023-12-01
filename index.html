@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Q1 Practice 3</title>
+</head>
+<body>
+	<h1>Club Registration Form</h1>
+
+	<form>
+		<label>Name:</label><br/>
+		<input type="text" name="name" id="name" style="background-color: green;">
+		<br/> <br/>
+		<label>Age:</label><br/>
+		<input type="text" name="age" id="age">
+		<br/> <br/>
+		<label>Gender:</label>
+		<input type="radio" name="gender" id="Male">
+		<label>Male:</label>
+		<input type="radio" name="gender" id="Female">
+		<label>Female:</label>
+		<br/> <br/>
+
+		<label>Grade & Section:</label><br/>
+		<select name="G_and_S">
+			<option value="GandS">Choose Grade & Section</option>
+			<option value="9E">9-Emerald</option>
+			<option value="9R">9-Ruby</option>
+			<option value="9S">9-Sapphire</option>
+			<option value="9T">9-Topaz</option>
+		</select>
+
+		<br/><br/>
+
+		<label>Choose a Club:</label>
+		<p><i>You may choose at least two (2) clubs.</i></p>
+		<br/>
+
+		<input type="checkbox" name="club1" id="club1">	
+		<label for="club1">Basketball</label>
+		<br/>
+		<input type="checkbox" name="club2" id="club2">	
+		<label for="club2">Volleyball</label>
+		<br/>
+		<input type="checkbox" name="club3" id="club3">	
+		<label for="club3">Writer's Club</label>
+		<br/>
+		<input type="checkbox" name="club4" id="club4">	
+		<label for="club4">Glee Club</label>
+		<br/>
+		<input type="checkbox" name="club5" id="club5">	
+		<label for="club5">Dance Club</label>
+		<br/><br/>
+
+		<label>Answer this question:</label>
+		<p><i>Why have you decided to join this club?</i></p>
+
+		<textarea name="question" cols="20" rows="5" placeholder="Enter your answer here"></textarea>
+
+		<br/><br/>
+		<input type="submit" name="Submit" id="Submit" value="Submit Form"/>
+
+	</form>
+
+</body>
+</html>
